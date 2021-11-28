@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Mom's birthday</title>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="fabric.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+        <style>
+            body{
+                background-image:url("gif.jpg");
+            }
+#myCanvas
+  {
+      border-width:10px;
+     background-image: url("download.jpg");
+      border-style:ridge;
+  }
+  #w-1,#w-2{
+      background-color: cadetblue;
+  }
+        </style>
+        <center>
+            <label id="w-1">Happy birthday to you mom</label>
+            <br>
+            <br>
+            <canvas id="myCanvas" width="1000px" height="800px" ></canvas>
+            <br>
+            <br>
+            <label id="w-2">Clickon the button below and say "play happy birthday song"</label>
+            <br>
+            <br>
+            <textarea readonly="true" class="form-group" id="get_value"></textarea>
+            <br>
+            <br>
+            <button class="btn-success" id="my-btn">Dear Mom</button>
+        </center>
+        <audio id="myAudio" src="song.mp3"></audio>
+    </body>
+    <script src="main.js"></script>
+</html>
